@@ -1,7 +1,9 @@
-function fonction(param1, param2){
+function fonction(param1, param2, param3){
 
-	return alert(param1 + " " + param2);
+	return alert("Bonjour " + param1 + " " + param2 + ". Tu as " + param3 + " ans.");
 }
 
-
-fonction(3, "Concaténation du chiffre");
+var nom = prompt("Quel est votre nom?");
+var prenom = prompt("Quel est votre prénom?");
+var age = prompt("Quel est votre âge?");
+fonction(nom, prenom, age);
