@@ -1,1 +1,1 @@
-var array = ['Pomme','Cerise','Tomate','Citron', ['Orange','Poivron']];
+var array = ['Pomme','Tomate', "Poire", 'Citron', ['Orange','Poivron', "Citron"], "Courgette"];
