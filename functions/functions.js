@@ -10,7 +10,7 @@ fonction(nom, prenom, age);*/
 
 
 function ageGenre(param1, param2){
-	if (param1 < 18 && param2 == "Homme" || param1 < 18 && param2 == "Femme")
+	if (param1 < 18 && (param2 == "Homme" || param2 == "Femme"))
 	{
 		return alert("Vous êtes un/une " + param2 + " et vous êtes mineur");
 	}
