@@ -1,3 +1,6 @@
 function fonction(param1){
-	return true;
+
+	return alert("Param1 : " + param1);
 }
+
+fonction("Une chaine ");
